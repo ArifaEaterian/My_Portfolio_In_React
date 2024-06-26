@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from 'react';
@@ -23,7 +24,7 @@ const About = () => {
             </div>
                 
             <div className='aboutSec_2'>
-                    <img src='../../../public/media/img/headerImg-500x500.png' className='headerImg' />
+                    <img src={`${process.env.PUBLIC_URL}/media/img/headerImg-500x500.png`} alt='headerimg' className='headerImg' />
                 </div>
 
         </div>
