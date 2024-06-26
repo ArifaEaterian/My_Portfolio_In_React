@@ -81,7 +81,6 @@ h4.projTitle a:hover::after {
     gap: 30px;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 .moreBtn {
     margin-top: 20px;
@@ -112,4 +111,13 @@ button.submitBtn{
     width: 23% !important;
 }
 
+}
+
+
+
+@media only screen and (max-width: 767px){
+    .projRow{
+        flex-wrap: wrap;
+
+    }
 }
