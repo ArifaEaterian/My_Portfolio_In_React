@@ -123,18 +123,6 @@ a.contactNumber:focus{
 .cert_row{
     flex-wrap: wrap !important;
 }
-.contactForm {
-    width: 100% !important;
-}
-.socialIcons {
-    width: 100% !important;
-}
-button.submitBtn{
-    width: 65% !important;
-}
-footer{
-    flex-wrap: wrap !important;
-}
 .profileImg{
     width: 100% !important;
 }

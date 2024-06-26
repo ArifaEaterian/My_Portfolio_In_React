@@ -68,3 +68,32 @@ button.submitBtn {
 button.submitBtn:hover{
 background: linear-gradient(135deg, #000000, #973784);
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+button.submitBtn{
+    width: 50% !important;
+    font-size: 16px !important;
+}
+}
+
+
+@media only screen and (max-width: 767px){
+
+    button.submitBtn{
+        width: 65% !important;
+    }
+    .contactForm {
+        width: 100% !important;
+    }
+    .socialIcons {
+        width: 100% !important;
+    }
+
+}
