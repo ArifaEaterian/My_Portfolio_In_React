@@ -1,0 +1,98 @@
+*{
+  /* background-color: azure; */
+  h1,h2,h3,h4,h5,h6{
+    font-family: monospace;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.4em;
+    margin: 0;
+  }
+ html, body{
+    margin: 0;
+    padding: 0;
+  }
+  p , a, li{
+    font-family: math;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.4em;
+  }
+}
+.Sections {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.centeredSection{
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.centeredText{
+  text-align: center;
+}
+ul {
+  padding-left: 20px;
+  list-style: circle;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+p, a, li{
+  font-size: 18px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .Sections{
+    flex-wrap: wrap !important;
+    padding: 20px 0 !important;
+  }
+  .centeredSection{
+    padding: 20px 0 !important;
+  }
+  .aboutSec_1, .aboutSec_2 {
+    width: 100% !important;
+}
+p, a, li{
+  font-size: 14px !important;
+}
+h2.intro {
+  font-size: 34px !important;
+}
+header h1{
+  font-size: 38px !important;
+}
+p.skills svg {
+
+  margin-bottom: 20px !important;
+}
+a.socialLink{
+  padding: 10px 16px !important;
+  font-size: 16px !important;
+}
+.skillCol svg {
+  font-size: 30px !important;
+}
+.skillCol h4 {
+  font-size: 22px !important;
+}
+span.num {
+  font-size: 18px !important;
+  padding: 6px 10px !important;
+}
+h3.expHeading {
+  font-size: 18px !important;
+}
+
+
+
+}

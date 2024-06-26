@@ -1,0 +1,53 @@
+h2.intro {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #973784;
+}
+.links {
+    display: flex;
+    gap: 20px;
+}
+p.iam {
+    font-size: 18px;
+    color: gray;
+}
+a.socialLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 18px;
+    background: #973784;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: unset;
+}
+a.socialLink:hover {
+    background: linear-gradient(135deg, #000000, #973784);
+}
+a.socialLink:focus {
+    background: #000;
+    outline: none;
+}
+img.headerImg {
+    width: 100%;
+}
+.aboutSec_1 ,.aboutSec_2{
+    width: 50%;
+}
+
+p.skills svg {
+    font-size: 30px;
+    color: #973784;
+    margin-right: 20px;
+    padding: 13px 15px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px 0 gray;
+}
+.skills svg.fa-html5 {
+    padding: 13px 18px;
+}
+p.skills svg:hover {
+    background: #973784;
+    color: #fff;
+}

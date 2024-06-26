@@ -1,0 +1,45 @@
+.cert_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.cert_col {
+    text-align: center;
+    background: #973784;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px gray, 0 3px 15px 0 gray;
+    transform: rotate3d(1, 1, 1, 5deg);
+    transition: all 0.3s ease-in-out;
+    width: 25%;
+}
+.cert_col:hover {
+    transform: rotate3d(1, 1, 1, 0deg);
+}
+.cert_col img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+h5.cert_head {
+    font-size: 20px;
+    padding: 10px;
+}
+p.cert_dt {
+    font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.cert_row{
+    gap: 30px !important;
+}
+
+
+
+
+
+}

@@ -1,0 +1,115 @@
+.projImg img {
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 3 / 2;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 4px 0 gray, 0 3px 20px 0 gray;
+
+}
+.projImg img:hover {
+    transform: translateY(-10px);
+}
+h4.projTitle a {
+    font-size: 26px;
+    text-decoration: none;
+    color: #973784;
+    font-weight: 600;
+}
+.inDetailed {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: baseline;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 gainsboro, 0 3px 15px 0 gainsboro;
+    margin-bottom: 35px;
+    transition: all 0.3s ease-in-out;
+    background: #94609429;
+
+}
+.inDetailed:hover {
+    background: #80008029;
+    box-shadow: 0 3px 4px 0 #973784, 0 3px 15px 0 #973784;
+    border: 1px solid #973784;
+}
+.inDetail_con p {
+    font-weight: 600;
+}
+.projImg, .projDetail{
+    width: 50%;
+}
+.projGall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.projGall img {
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 4px 0 gray, 0 3px 20px 0 gray;
+}
+h4.projTitle a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: purple;
+    width: 0%;
+    height: 3px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+}
+h4.projTitle a:hover::after {
+    width: 15%;
+}
+.projGall img:hover {
+    transform: translateX(-10px);
+}
+.projRow{
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.moreBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section.pGallery {
+    padding: 30px 0;
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.projGall img {
+    width: 44% !important;
+}
+button.submitBtn{
+    width: 50% !important;
+    font-size: 16px !important;
+}
+.conts label {
+    font-size: 16px !important;
+}
+.cert_col img{
+    height: 200px !important;
+}
+.cert_col{
+    width: 23% !important;
+}
+
+}
