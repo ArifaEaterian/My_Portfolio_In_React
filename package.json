@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://arifaeaterian.github.io/My_Portfolio_In_React/",
+  "homepage": "https://arifaeaterian.github.io/My_Portfolio_In_React/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -20,7 +20,8 @@
     "@ramonak/react-progress-bar": "^5.2.0",
     "emailjs-com": "^3.2.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

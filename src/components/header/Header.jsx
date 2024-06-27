@@ -6,6 +6,7 @@ import { faBars , faTimes  } from '@fortawesome/free-solid-svg-icons';
 
 //import css
 import "./Header.css";
+import { Link } from 'react-scroll';
 
 const Header = () => {
 
@@ -21,12 +22,12 @@ const Header = () => {
                 <h1 className="header">My Portfolio</h1>
                 <nav className={`nav ${isOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#myprojects">My Projects</a></li>
-                        <li><a href="#certification">Certification</a></li>
-                        <li><a href="#contact">Contact me</a></li>
+                        <li><Link to="about" scroll="true" duration={500}>About</Link></li>
+                        <li><Link to="skills" scroll="true" duration={500}>Skills</Link></li>
+                        <li><Link to="experience" scroll="true" duration={500}>Experience</Link></li>
+                        <li><Link to="myprojects" scroll="true" duration={500}>My Projects</Link></li>
+                        <li><Link to="certification" scroll="true" duration={500}>Certification</Link></li>
+                        <li><Link to="contact" scroll="true" duration={500}>Contact me</Link></li>
                     </ul>
 
                 </nav>
