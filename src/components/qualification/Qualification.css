@@ -99,12 +99,7 @@ a.contactNumber:focus{
 .qualSec_2 {
     width: 100% !important;
 }
-.skillSet{
-    flex-wrap: wrap !important;
-}
-.skillCol{
-    width: 100% !important;
-}
+
 .exp_cont_row{
     flex-wrap: wrap !important;
 }
