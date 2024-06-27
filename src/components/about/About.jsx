@@ -26,7 +26,7 @@ const About = () => {
             <div className='aboutSec_2'>
                 {/* <img src={`${process.env.PUBLIC_URL}/media/img/headerImg-500x500.png`} alt='headerimg' className='headerImg' /> */}
                 
-                    <img src="https://github.com/ArifaEaterian/My_Portfolio_In_React/blob/main/public/media/img/ARIFA%20IFFAT.jpg" alt='headerimg' className='headerImg' />
+                    <img src="../../../dist/media/img/headerImg-500x500.png" alt='headerimg' className='headerImg' />
 
                 
                 </div>
