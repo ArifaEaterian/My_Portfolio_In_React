@@ -7,10 +7,13 @@
     line-height: 1.4em;
     margin: 0;
   }
- html, body{
+ body{
     margin: 0;
     padding: 0;
+  }
+  html{
     scroll-behavior: smooth;
+
   }
   p , a, li{
     font-family: math;
