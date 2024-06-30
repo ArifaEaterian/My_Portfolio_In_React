@@ -10,12 +10,11 @@
     color: #fff;
     border-radius: 10px;
     box-shadow: 0 3px 4px gray, 0 3px 15px 0 gray;
-    transform: rotate3d(1, 1, 1, 5deg);
     transition: all 0.3s ease-in-out;
     width: 25%;
 }
 .cert_col:hover {
-    transform: rotate3d(1, 1, 1, 0deg);
+    transform: translateY(-10px);
 }
 .cert_col img {
     border-top-left-radius: 10px;

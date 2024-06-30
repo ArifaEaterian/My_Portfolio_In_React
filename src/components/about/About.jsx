@@ -4,6 +4,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faGithub, faHtml5, faLinkedinIn, faNodeJs, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons';
+
+
+
+
 //css
 import './About.css';
 
@@ -26,7 +30,7 @@ const About = () => {
             <div className='aboutSec_2'>
                 {/* <img src={`${process.env.PUBLIC_URL}/media/img/headerImg-500x500.png`} alt='headerimg' className='headerImg' /> */}
                 
-                <img src="../../../public/media/img/headerImg-500x500.png" alt='headerimg' className='headerImg' />
+                <img src="../../../public/media/headerImg-500x500.png" alt='headerimg' className='headerImg' />
 
                 
                 </div>
