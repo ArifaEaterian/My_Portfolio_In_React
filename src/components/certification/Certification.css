@@ -11,7 +11,7 @@
     border-radius: 10px;
     box-shadow: 0 3px 4px gray, 0 3px 15px 0 gray;
     transition: all 0.3s ease-in-out;
-    width: 25%;
+    width: 23%;
 }
 .cert_col:hover {
     transform: translateY(-10px);
