@@ -28,9 +28,9 @@ const About = () => {
             </div>
                 
             <div className='aboutSec_2'>
-                <img src={`${process.env.PUBLIC_URL}/images/headerImg-500x500.png`} alt='headerimg' className='headerImg' />
+                {/* <img src="../../../public/assets/images/headerImg-500x500.png" alt='headerimg' className='headerImg' /> */}
                 
-                {/* <img src="../../../public/images/headerImg-500x500.png" alt='headerimg' className='headerImg' /> */}
+                <img src="/assets/images/headerImg-500x500.png" alt='headerimg' className='headerImg' />
 
                 
                 </div>
