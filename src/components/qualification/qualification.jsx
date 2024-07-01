@@ -19,7 +19,7 @@ const Qualification = () => {
         <div className='Sections'>
 
             <div className='qualSec_1'>
-                <img src='/assets/images/ARIFA IFFAT.jpg' className='profileImg' />
+                <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/ARIFA IFFAT.jpg' className='profileImg' />
                 <div className='details'>
                     <p className="iam">I’m</p>
                     <h2 className="intro">ARIFA IFFAT</h2>

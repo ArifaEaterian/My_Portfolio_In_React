@@ -91,12 +91,12 @@ const Project = () => {
         </div>
         <section className='pGallery'>
         <div className="projGall">
-            <img decoding="async" src="/assets/images/Food_ordering.png" alt="" />
-            <img decoding="async" src="/assets/images/bike_project.png" alt="" />
-            <img decoding="async" src="/assets/images/NFT_landing_page.png" alt="" />
-            <img decoding="async" src="/assets/images/pixlab_project.png" alt="" />
-            <img decoding="async" src="/assets/images/hospital_project.png" alt="" />
-            <img decoding="async" src="/assets/images/e-guru.jpg" alt="" />
+            <img decoding="async" src="https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/Food_ordering.png" alt="" />
+            <img decoding="async" src="https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/bike_project.png" alt="" />
+            <img decoding="async" src="https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/NFT_landing_page.png" alt="" />
+            <img decoding="async" src="https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/pixlab_project.png" alt="" />
+            <img decoding="async" src="https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/hospital_project.png" alt="" />
+            <img decoding="async" src="https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/e-guru.jpg" alt="" />
         </div>
         <div className='moreBtn centeredText'>
         <a href="https://github.com/ArifaEaterian/LearningFullStackWebDev/" target="_blank" className="socialLink"><FontAwesomeIcon icon={faExpand} /> More Projects </a>
