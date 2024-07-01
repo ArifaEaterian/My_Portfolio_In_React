@@ -29,7 +29,7 @@ const About = () => {
                 
             <div className='aboutSec_2'>
                 {/* <img src="/assets/images/headerImg-500x500.png" alt='headerimg' className='headerImg' /> */}
-                <img src="/My_Portfolio_In_React/assets/images/headerImg-500x500.png" alt='headerimg' className='headerImg' />
+                <img src="https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/headerImg-500x500.png" alt='headerimg' className='headerImg' />
 
                 {/* <img src={`${process.env.PUBLIC_URL}/assets/images/headerImg-500x500.png`} alt='headerimg' className='headerImg' /> */}
 
