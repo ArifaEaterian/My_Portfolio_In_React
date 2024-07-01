@@ -43,13 +43,13 @@ const Project = () => {
                 </div>
 
                 <div className='projImg'>
-                    <img src='/assets/images/password-generator.jpg' alt='projectImg' />
+                    <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/password-generator.jpg' alt='projectImg' />
                 </div>
             </div>
 
             <div className='projRow'>
                 <div className='projImg'>
-                    <img src='/assets/images/eaterian-wp.png' alt='projectImg' />
+                    <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/eaterian-wp.png' alt='projectImg' />
                 </div>
 
                 <div className='projDetail'>
