@@ -21,9 +21,10 @@ div#contact {
 }
 .conts input {
     padding: 10px;
-    border: 1px solid #fafafa;
+    border: 1px solid #80008026;
     border-radius: 20px;
     background: #94609429;
+    box-shadow: 1px 1px #80008021, 1px 1px #80008021;
 }
 .conts input:hover {
     border: 1px solid transparent;
@@ -37,10 +38,11 @@ div#contact {
 
 .conts textarea {
     padding: 10px;
-    border: 1px solid #fafafa;
+    border: 1px solid #80008026;
     border-radius: 20px;
     background: #94609429;
     height: 100px;
+    box-shadow: 1px 1px #80008021, 1px 1px #80008021;
 }
 .conts textarea:hover {
     border: 1px solid transparent;
