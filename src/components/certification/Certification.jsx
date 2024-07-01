@@ -27,7 +27,7 @@ const Certification = () => {
                 </div>
                 <div className='cert_col'>
                     <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/Lakshya_Oracle.png' alt='internship' />
-                    <h5 className='cert_head'>Oracle (MySQL)</h5>
+                    <h5 className='cert_head'>Oracle 10G (MySQL)</h5>
                     <p className='cert_dt'>May 2017 - Jun 2017</p>
                 </div>
             </div>
