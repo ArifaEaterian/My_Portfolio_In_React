@@ -43,13 +43,13 @@ const Project = () => {
                 </div>
 
                 <div className='projImg'>
-                    <img src='../../../public/media/img/password-generator.jpg' alt='projectImg' />
+                    <img src='/assets/images/password-generator.jpg' alt='projectImg' />
                 </div>
             </div>
 
             <div className='projRow'>
                 <div className='projImg'>
-                    <img src='../../../public/media/img/eaterian-wp.png' alt='projectImg' />
+                    <img src='/assets/images/eaterian-wp.png' alt='projectImg' />
                 </div>
 
                 <div className='projDetail'>
@@ -91,12 +91,12 @@ const Project = () => {
         </div>
         <section className='pGallery'>
         <div className="projGall">
-            <img decoding="async" src="../../../public/media/img/Food ordering.png" alt="" />
-            <img decoding="async" src="../../../public/media/img/bike project.png" alt="" />
-            <img decoding="async" src="../../../public/media/img/NFT landing page.png" alt="" />
-            <img decoding="async" src="../../../public/media/img/pixlab project.png " alt="" />
-            <img decoding="async" src="../../../public/media/img/hospital project.png" alt="" />
-            <img decoding="async" src="../../../public/media/img/e-guru.jpg" alt="" />
+            <img decoding="async" src="/assets/images/Food_ordering.png" alt="" />
+            <img decoding="async" src="/assets/images/bike_project.png" alt="" />
+            <img decoding="async" src="/assets/images/NFT_landing_page.png" alt="" />
+            <img decoding="async" src="/assets/images/pixlab_project.png" alt="" />
+            <img decoding="async" src="/assets/images/hospital_project.png" alt="" />
+            <img decoding="async" src="/assets/images/e-guru.jpg" alt="" />
         </div>
         <div className='moreBtn centeredText'>
         <a href="https://github.com/ArifaEaterian/LearningFullStackWebDev/" target="_blank" className="socialLink"><FontAwesomeIcon icon={faExpand} /> More Projects </a>
