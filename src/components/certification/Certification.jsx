@@ -12,7 +12,7 @@ const Certification = () => {
             <div className='cert_row'>
                 <div className='cert_col'>
                     <img src='https://arifaeaterian.github.io//My_Portfolio_In_React2/assets/images/Zebaq_Internship.jpg' alt='internship' />
-                    <h5 className='cert_head'>WEB DEVELOPER INTERNSHIP</h5>
+                    <h5 className='cert_head'>WEB DEVELOPER INTERNSHIP </h5>
                     <p className='cert_dt'>Feb 2024 - May 2024</p>
                 </div>
                 <div className='cert_col'>
