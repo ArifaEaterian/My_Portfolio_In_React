@@ -49,6 +49,44 @@ const Project = () => {
 
             <div className='projRow'>
                 <div className='projImg'>
+                    <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/QuizApp.jpg' alt='projectImg' />
+                </div>
+
+                <div className='projDetail'>
+
+                    <h4 className="projTitle "><a href='https://github.com/ArifaEaterian/Quiz-app-JS'><FontAwesomeIcon icon={faCaretRight} /> Customizable Product WooCommerce Website</a></h4>
+                    <p>Project Description:</p>
+                    <p>Developed a Quiz App in HTML, CSS, and Javascript with dynamic score tracking and answer feedback.</p>
+
+                    <div className='inDetailed'>
+                        <div className="inDetail_con">
+                            <p>Key Features:</p>
+
+                            <ul>
+                                <li>4 multiple-choice options per question</li>
+                                <li>Dynamic score tracking and display</li>
+                                <li>Real-time answer feedback</li>
+                            </ul>
+
+                        </div>
+                        <div className="inDetail_con">
+                            <p>Technologies Used:</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <a href="https://github.com/ArifaEaterian/LearningFullStackWebDev/" target="_blank" className="socialLink"><FontAwesomeIcon icon={faExpand} /> View project </a>
+                </div>
+
+
+            </div>
+
+            <div className='projRow'>
+                <div className='projImg'>
                     <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/eaterian-wp.png' alt='projectImg' />
                 </div>
 
