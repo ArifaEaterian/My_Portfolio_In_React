@@ -90,15 +90,15 @@ const Project = () => {
 
                     <h4 className="projTitle "><a href='https://github.com/ArifaEaterian/LearningFullStackWebDev/'><FontAwesomeIcon icon={faCaretRight} /> Random Password Generator</a></h4>
                     <p>Project Description:</p>
-                    <p>Created a whatsapp clone in MERN stack. This app lets users do real time chat with each other.</p>
+                    <p>Created a calculator app in react js. This app lets users to do calculations in daily basis.</p>
 
                     <div className='inDetailed'>
                         <div className="inDetail_con">
                             <p>Key Features:</p>
 
                             <ul>
-                                <li>Login functionality</li>
-                                <li>Realtime chat</li>
+                                <li>Numerical Calculation.</li>
+                                <li>Fully responsive and user friendly.</li>
                             </ul>
 
                         </div>
@@ -106,8 +106,6 @@ const Project = () => {
                             <p>Technologies Used:</p>
                             <ul>
                                 <li>ReactJS</li>
-                                <li>Express JS</li>
-                                <li>MongoDB</li>
                             </ul>
 
                         </div>
@@ -116,7 +114,7 @@ const Project = () => {
                 </div>
 
                 <div className='projImg'>
-                    <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/whatsapp-clone.jpg' alt='projectImg' />
+                    <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/basic_calculator.jpg' alt='projectImg' />
                 </div>
             </div>
 
