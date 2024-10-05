@@ -86,6 +86,41 @@ const Project = () => {
             </div>
 
             <div className='projRow'>
+                <div className='projDetail'>
+
+                    <h4 className="projTitle "><a href='https://github.com/ArifaEaterian/LearningFullStackWebDev/'><FontAwesomeIcon icon={faCaretRight} /> Random Password Generator</a></h4>
+                    <p>Project Description:</p>
+                    <p>Created a whatsapp clone in MERN stack. This app lets users do real time chat with each other.</p>
+
+                    <div className='inDetailed'>
+                        <div className="inDetail_con">
+                            <p>Key Features:</p>
+
+                            <ul>
+                                <li>Login functionality</li>
+                                <li>Realtime chat</li>
+                            </ul>
+
+                        </div>
+                        <div className="inDetail_con">
+                            <p>Technologies Used:</p>
+                            <ul>
+                                <li>ReactJS</li>
+                                <li>Express JS</li>
+                                <li>MongoDB</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <a href="https://github.com/ArifaEaterian/LearningFullStackWebDev/" target="_blank" className="socialLink"><FontAwesomeIcon icon={faExpand} /> View project </a>
+                </div>
+
+                <div className='projImg'>
+                    <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/whatsapp-clone.jpg' alt='projectImg' />
+                </div>
+            </div>
+
+            <div className='projRow'>
                 <div className='projImg'>
                     <img src='https://arifaeaterian.github.io//My_Portfolio_In_React/assets/images/eaterian-wp.png' alt='projectImg' />
                 </div>
